@@ -1,0 +1,45 @@
+# Codebook for Quality-control Project in Stem Cell Banking and Cryopreservation Services
+
+## Project Description
+The Quality-control project focuses on ensuring the integrity and reliability of stem cell samples in a GMP company offering banking and cryopreservation services. The project involves various quality control tests to assess sample viability and quality.
+
+## Dummy Data Table Variables
+
+| Sample ID | Test Type                        | Date Creation | Initiator            | Result/Unit |
+|-----------|----------------------------------|---------------|----------------------|-------------|
+| QC001     | Growth Promotion Test            | 20.09.2023    | Nada Gad             | Passed      |
+| QC002     | Flow Cytometry                   | 06.10.2023    | Nada Gad             | Passed      |
+| QC003     | CFU Count                        | 15.10.2023    | Nada Gad             | Failed      |
+| QC004     | Microorganism Identification     | 22.10.2023    | External Laboratory  | Passed      |
+| QC005     | Serology Test                    | 01.11.2023    | External Laboratory  | Passed      |
+
+## Codebook
+
+### Sample ID
+- **Description:** Unique identifier for each sample.
+- **Type:** Alphanumeric
+- **Notes:** The Sample ID serves as a unique identifier for each quality control test sample.
+
+### Test Type
+- **Description:** Type of quality control test performed on the sample.
+- **Type:** Categorical
+- **Notes:** Indicates the specific test conducted, such as Growth Promotion Test, Flow Cytometry, CFU Count, Microorganism Identification, or Serology Test.
+
+### Date Creation
+- **Description:** Date when the quality control test was conducted.
+- **Type:** Date
+- **Notes:** Represents the date on which the quality control test was initiated.
+
+### Initiator
+- **Description:** Person or entity responsible for initiating the quality control test.
+- **Type:** Alphanumeric
+- **Notes:** Specifies the individual or department that initiated the test, providing accountability.
+
+### Result/Unit
+- **Description:** Outcome of the quality control test along with the corresponding unit.
+- **Type:** Categorical (Passed/Failed)
+- **Notes:** Indicates whether the sample passed or failed the quality control test. In case of failure, further investigation may be required.
+
+## Notes on Codebook Creation
+This codebook provides a concise description of key variables in the dummy data table. It serves as a reference guide for understanding the structure and meaning of each variable, facilitating effective data management and analysis throughout the project.
+
