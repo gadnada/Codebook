@@ -1,0 +1,65 @@
+# Codebook for Quality-control Project
+
+## Project Description
+Quality control project for analyzing various tests in the laboratory.
+
+## Study Design and Data Processing
+Retrospective analysis of quality control data.
+
+### Collection of the Raw Data
+Data collected from Cytoflex flow cytometry, BactAlert, and lab analysis. 
+
+### Notes on the Original (Raw) Data
+Each test type has a unique identifier (Sample ID). Administrative metadata include project/resource owner, principal investigator, project collaborators, funder, project period, etc.
+
+## Creating the Tidy Datafile
+Data is organized into a tidy format for analysis.
+
+### Guide to Create the Tidy Data File
+Utilize tools like Excel and MS Powerpoint for data structuring and visualization.
+
+## Description of Variables in the Dataset
+
+1. **Sample ID**
+   - Type: Categorical
+   - Description: Identifier for the sample.
+
+2. **Test Type**
+   - Type: Categorical
+   - Description: Type of quality control test.
+
+3. **Date Creation**
+   - Type: Date
+   - Description: Date when the test was created.
+
+4. **Initiator**
+   - Type: Categorical
+   - Description: Person or entity initiating the test.
+
+5. **Result/Unit**
+   - Type: Categorical
+   - Description: Result of the quality control test.
+     - Categories: 'Passed', 'Failed'
+
+## Variable Details
+- **Sample ID**
+  - Descriptive Metadata: Unique identifier assigned to each test.
+  - Administrative Metadata: Project/resource owner, principal investigator, collaborators.
+
+- **Test Type**
+  - Descriptive Metadata: Type of quality control test.
+  - Administrative Metadata: Project/resource owner, collaborators.
+
+- **Date Creation**
+  - Descriptive Metadata: Date when the test was created.
+  - Administrative Metadata: Project period.
+
+- **Initiator**
+  - Descriptive Metadata: Person or entity initiating the test.
+  - Administrative Metadata: Project/resource owner.
+
+- **Result/Unit**
+  - Descriptive Metadata: Result of the quality control test.
+  - Administrative Metadata: Project/resource owner.
+
+This codebook provides a comprehensive guide to the variables used in the dataset, including their types, descriptions, and metadata details.
